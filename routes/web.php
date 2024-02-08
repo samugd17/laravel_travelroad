@@ -4,10 +4,7 @@
 use Illuminate\Support\Facades\DB;
 
 Route::get('/', function () {
-  $wished = DB::select('select * from places where visited = false');
-  $visited = DB::select('select * from places where visited = true');
-
-  return view('travelroad', ['wished' => $wished, 'visited' => $visited]);
+  return view('travelroad');
 });
 
 Route::get('/wished', function () {

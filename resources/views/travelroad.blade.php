@@ -7,6 +7,6 @@
     <h1>My Travel Bucket List</h1>
     <p><a href="{{ url('/wished') }}">Places I'd like to visit</a></p>
     <p><a href="{{ url('/visited') }}">Places I've already been to</a></p>
-    <p>✨Powered by Laravel (PHP)</p>
+    <p>✨Powered by Laravel</p>
   </body>
 </html>
